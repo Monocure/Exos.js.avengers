@@ -4,51 +4,57 @@
 // la fonction 'console.log'
 // ex: console.log('simplon');
 // ex: console.log(nom de la variable);
-// Lorque vous avez validé un exercice, mettez le en commentaire !!
+// Lorsque vous avez validé un exercice, mettez le en commentaire !!
 
 
 
 
-//Déclarer deux variables avec comme valeur 4 et 5
-//Créez une autre variable contenant l'addition des deux et l'afficher.
-//TODO
+// Déclarer deux variables avec comme valeur 4 et 5
+// Créez une autre variable contenant l'addition des deux et l'afficher.
+// //TODO
 
 let nombre1 = 4;
 let nombre2 = 5;  
 let result = nombre1 + nombre2;
 console.log(result);
 
-
 //Afficher la chaine de caractère suivante en majuscule
 let team = 'avengers';
 //TODO
 
-let nomag = 'AVENGERS'
-console.log(nomag)
-
-/*
+let nomag = 'avengers'
+console.log(nomag.toUpperCase)
 
 //Afficher la première lettre de la chaine de caractère suivante
-let team = 'avengers';
-//TODO
+let team2 = 'avengers';
+console.log(team2[0])
+
 
 //afficher la chaine de caractère suivante excepté la première lettre.
 let team = 'avengers';
 //TODO
+let team3 = 'avengers';
+console.log(team3.substr(1, team3.length))
 
 //Afficher les deux chaines suivantes dans une seule chaine de caractère (concaténation)
 let firstName = 'Tony';
 let lastName = 'Stark';
 //TODO
 
+var firstName = "Tony";
+var lastName = " Stark";
+var Filaname = firstName + lastName;
+console.log(Filaname);
 
 //Afficher la chaine de caractère suivante avec seulement la première lettre en majuscule.
 let team = 'aveNgers';
+
+
 //=> Avengers
 //TODO
 
 //Pause ! Va boire un café ! Tu le mérites...
-
+/*
 //Les tableaux
 //Déclarez un tableau avec 5 villes
 //Afficher la ville à l'indice 3
