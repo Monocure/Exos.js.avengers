@@ -13,10 +13,20 @@
 //Créez une autre variable contenant l'addition des deux et l'afficher.
 //TODO
 
+let nombre1 = 4;
+let nombre2 = 5;  
+let result = nombre1 + nombre2;
+console.log(result);
+
 
 //Afficher la chaine de caractère suivante en majuscule
 let team = 'avengers';
 //TODO
+
+let nomag = 'AVENGERS'
+console.log(nomag)
+
+/*
 
 //Afficher la première lettre de la chaine de caractère suivante
 let team = 'avengers';
@@ -199,3 +209,4 @@ const aTrier = [3, 2, 6, 4, 8, 10];
 // termes qui le précèdent. Elle commence généralement par les termes 0 et 1 (parfois 1 et 1) et ses 
 // premiers termes sont : 0, 1, 1, 2, 3, 5, 8, 13, 21, etc...
 // Code un algorithme qui calcul les 50 premiers termes de la suite.
+*/
